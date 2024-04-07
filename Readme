@@ -1,0 +1,28 @@
+<----------------------------------------SDET ASSIGNMENT---------------------------------------------->
+
+Hey Team,
+Greetings
+
+There are some minor changes in the scenario in comparision to the testing on "Oneplus Nord 2" device since the test is executed on "Google Pixel 6" emulator.
+
+To execute this piece of code
+
+Pre-requisites:
+
+Install IntelliJ
+Install AndroidStudio.
+Install Java8.
+Install Appium GUIServer.
+Install Appium doctor to check if everything is set to go.
+
+Set home path and environment variables for all
+
+Steps:
+1. Open Android Studio VDM-> Virtual Device Manager
+2. Start the appium server either by terminal or from GUI. (set variable in edit configurations as well)
+3. Open IntelliJ and import the project downloaded or clone the projeect from the github.
+4. Add the missing dependencies in pom.xml
+5. Trigger the tests in the suite (src > test > java > com.androidlanbda > Setup).
+6. Logs can be seen in the console.
+
+<------------------------------------------Happy Testing---------------------------------------------->
